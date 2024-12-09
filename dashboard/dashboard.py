@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your data (replace with your actual data loading)
-day_df = pd.read_csv(r'C:\Users\UserBPS\Downloads\Bike-sharing-dataset\day.csv')
-hour_df = pd.read_csv(r'C:\Users\UserBPS\Downloads\Bike-sharing-dataset\hour.csv')
+day_data = pd.read_csv('data/day.csv')
+hour_data = pd.read_csv('data/hour.csv')
 
 # Berdasarkan hasil assessing data, tidak ditemukan missing value dan duplikasi data pada kedua dataset. 
 # Namun, perlu dilakukan beberapa langkah cleaning data:
